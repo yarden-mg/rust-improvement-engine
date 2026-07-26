@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Rust Improvement Engine",
+  "version": "1.0.0",
+  "description": "Changes every instance of Rust into Blazing Fast.",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
